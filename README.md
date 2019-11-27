@@ -31,3 +31,5 @@ Possible workaround would be empowering the users the capability to host the OAu
 One way to approach this would be to implement a plugin or software that is able to detect the website's password and provide a dynamic password (token) and each time it changes the password, it'll reset the password for the given website. This approach is rather harsh as it means from the vendor's perspective, this is considered a "Lost your password" or "Forgotten your password" which is a not the desired output.
 
 Reviewing the process and methodology taken by LastPass and DashLane, they seem to implement a method to auto-change password to several websites. Auto-change password. That's another interesting idea.
+
+Today's security models are really server-based auth and users are not empowered to do anything from their side, users are at the mercy of the vendors and merchants. This needs to change.
