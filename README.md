@@ -19,3 +19,13 @@ Another possible goal is to have a "Sign-up with Securus" similar to "Sign-up wi
 then "Sign-in with Securus"
 
 This will automatically select the most secure manner to sign in without the concern of security.
+
+## Updates
+### 27th Nov 2019
+
+After some reviews on existing solutions, OAuth2 does meet all the criterias above. Unfortunately, the adoption of OAuth2 is still picking up. Most existing websites are still using traditional username and static password which is stored in the vendor's database.
+
+After some brainstorming, it's *possible* that this project will change its' direction towards working around the issue on the lack of adoption of OAuth, then again, there's still a possibility to re-design or propose another implementation of open standard for a secured methodology around Authentication.
+
+Possible workaround would be empowering the users the capability to host the OAuth themselves rather than depending on the merchants and vendors that doesn't bother about the security of the users. Users have to be awared and be empowered to take pro-active measures to secure themselves rather than depending on others. Implementation details are still in thought phase.
+One way to approach this would be to implement a plugin or software that is able to detect the website's password and provide a dynamic password (token) and each time it changes the password, it'll reset the password for the given website. This approach is rather harsh as it means from the vendor's perspective, this is considered a "Lost your password" or "Forgotten your password" which is a not the desired output.
