@@ -29,3 +29,5 @@ After some brainstorming, it's *possible* that this project will change its' dir
 
 Possible workaround would be empowering the users the capability to host the OAuth themselves rather than depending on the merchants and vendors that doesn't bother about the security of the users. Users have to be awared and be empowered to take pro-active measures to secure themselves rather than depending on others. Implementation details are still in thought phase.
 One way to approach this would be to implement a plugin or software that is able to detect the website's password and provide a dynamic password (token) and each time it changes the password, it'll reset the password for the given website. This approach is rather harsh as it means from the vendor's perspective, this is considered a "Lost your password" or "Forgotten your password" which is a not the desired output.
+
+Reviewing the process and methodology taken by LastPass and DashLane, they seem to implement a method to auto-change password to several websites. Auto-change password. That's another interesting idea.
